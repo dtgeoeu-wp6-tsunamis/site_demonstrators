@@ -1,0 +1,13 @@
+--- !ewricagm.config.GroundMotionConfig
+config_path: ''
+method: NN
+#imts: ['pga', 'pgv', 'pgd']
+imts: ['pga']
+nndir: 'ewricagm/nns'
+nntype: MT
+#resolution and area
+mappoints: 50
+mapextent:
+- 1. #in degrees lon
+- 1. #in degrees lat
+mapmode: rectangular
