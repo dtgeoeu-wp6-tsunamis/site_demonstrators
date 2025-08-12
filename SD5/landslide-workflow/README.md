@@ -6,7 +6,6 @@ The main notebook is called ```sd5.ipynb```
 
 ### Requirements   
 The file "requirements.txt" contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
-An example of the python environment created with venv is stored in the directory ```env1```. 
    
 ### Inputs
 The files need to run this notebook can be downloaded from ADD LINK
