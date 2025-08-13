@@ -1,0 +1,9 @@
+[submodule "SD5/landslide-workflow/precomputed-database/release-volume-sampler"]
+	path = SD5/landslide-workflow/precomputed-database/release-volume-sampler
+	url = https://github.com/dtgeoeu-wp6-tsunamis/release-volume-sampler.git
+[submodule "SD5/landslide-workflow/precomputed-database/bingclaw-to-hysea"]
+	path = SD5/landslide-workflow/precomputed-database/bingclaw-to-hysea
+	url = https://github.com/dtgeoeu-wp6-tsunamis/bingclaw-to-hysea.git
+[submodule "SD5/inundation-emulator/inundation-emulator"]
+	path = SD5/inundation-emulator/inundation-emulator
+	url = https://github.com/dtgeoeu-wp6-tsunamis/inundation-emulator.git
