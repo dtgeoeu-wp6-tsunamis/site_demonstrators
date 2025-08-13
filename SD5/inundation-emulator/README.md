@@ -5,7 +5,7 @@ This repo contains a notebook and instructions to run the SD5 Inundation Emulato
 The main notebook is called ```sd5-2.ipynb```
 
 ### Requirements   
-The python packages and versions needed to run this notebook are the same needed by the ```inundation-emulator``` module. This was built and tested with python version 3.11.9.   
+The python packages and versions needed to run this notebook are the same needed by the ```inundation-emulator``` module, see ```inundation-emulator/README.md```. This was built and tested with python version 3.11.9 and poetry.   
    
 ### Inputs
 
