@@ -1,14 +1,33 @@
 ## SD5 - 1908 Messina event: a test case for adding landslide sources to the PTF   
 
-This repo contains a notebook and codes needed to run the SD5 1908 Messina event to show the embedding of the landslide scenarios in the PTF workflow.   
+The `SD5/landslide-workflow` folder contains a notebook and codes needed to run the Site Demonstrator SD5 1908 Messina event to show the embedding of the landslide scenarios in the PTF workflow.   
 
-The main notebook is called ```sd5.ipynb```
+This folder contains:
+- `sd5-1.ipynb`: main notebook to run the SD5 example
+- `ewricagm`: code for computing shakemaps
+- `precomputed-database`: 
+    - `release-volume-sampler`: code for creating the list of release volumes (input for the landslide simulations) and to compute the probabilities given the shakemaps and the probabilities of the PTF scenarios
+    - `bingclaw-to-hysea`: code to run the landslide dynamics simualations and the tsunami simulations
+- `utils`: functions needed to run the sd5-1 notebook 
+- `output`: folder where the output of the notebook are stored (it is created at runtime if not present yet)
+
+
+TODO: add license   
 
 ### Requirements   
 The file "requirements.txt" contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
    
 ### Inputs
-The files need to run this notebook can be downloaded from ADD LINK
+The files needed to run this notebook can be downloaded from ADD LINK.    
+The input folder has the following structure:   
+```
+input-landslide-workflow-sd5
+| - precomputed-database
+|   | - ...
+| - ptf-input
+|   | - FocMech_PreProc
+|   | - mesh_files
+```   
 
 ### Acknowledgments 
 The original PTF code is available from the DT-GEO workflow registry (https://gitlab.com/dtgeo/workflow-management-system/workflow-registry/-/tree/main/DTC61/WF6101?ref_type=heads). For the sake of simplicity and conciseness, the codes in this notebook (as well in the external functions.ipynb notebook) have been revised and some general options have been removed, to focus on the specific site demonstrator.   
