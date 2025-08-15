@@ -10,12 +10,14 @@ This folder contains:
     - `bingclaw-to-hysea`: code to run the landslide dynamics simualations and the tsunami simulations
 - `utils`: functions needed to run the sd5-1 notebook 
 - `output`: folder where the output of the notebook are stored (it is created at runtime if not present yet)
-
-
-TODO: add license   
+  
 
 ### Requirements   
-The file "requirements.txt" contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
+The file `requirements.txt` contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
+Note that some parts of the workflow require very specific versions of python packages (e.g., tensorflow 2.12) and specific wheels, so we recommend to use the `requirements.txt` file to install the right versions of the python packages with pip:
+```
+pip install -r requirements.txt
+```
    
 ### Inputs
 The files needed to run this notebook can be downloaded from ADD LINK.    
@@ -34,6 +36,8 @@ The original PTF code is available from the DT-GEO workflow registry (https://gi
    
 The code to compute the shakemaps is based on Lucas Lehmann's code (https://github.com/rauler95/gmacc) end EWRICA project (https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=79057f75-b358-11ed-95b8-f851ad6d1e4b). The application of Lehmann's code is described in the following publication: https://academic.oup.com/gji/article/234/3/2328/7202317.   
    
-
+### License
+This project is licensed under the Non-Profit Open Software License version 3.0 (NPOSL-3.0).  
+See the [LICENSE](./LICENSE) file for details.
 
 
