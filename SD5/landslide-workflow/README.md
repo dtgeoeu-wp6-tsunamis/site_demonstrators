@@ -16,7 +16,7 @@ This folder contains:
 ### Instructions for the use of submodules
 After cloning this repository, it is necessary to run an additional command to download also the repositories stored as submodules:
 ```
-git git submodule update --init --recursive
+git submodule update --init --recursive
 ```
 If any changes to the original repositories are made, the following command is to align the submodules to the latest commit in the original repository:
 
