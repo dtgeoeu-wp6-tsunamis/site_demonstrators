@@ -7,3 +7,6 @@
 [submodule "SD5/inundation-emulator/inundation-emulator"]
 	path = SD5/inundation-emulator/inundation-emulator
 	url = https://github.com/dtgeoeu-wp6-tsunamis/inundation-emulator.git
+[submodule "SD5/landslide-workflow/precomputed-database/landslide-wf-postproc"]
+	path = SD5/landslide-workflow/precomputed-database/landslide-wf-postproc
+	url = https://github.com/dtgeoeu-wp6-tsunamis/landslide-wf-postproc.git
