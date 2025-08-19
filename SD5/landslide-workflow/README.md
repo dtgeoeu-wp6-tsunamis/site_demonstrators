@@ -8,9 +8,21 @@ This folder contains:
 - `precomputed-database`: 
     - `release-volume-sampler`: code for creating the list of release volumes (input for the landslide simulations) and to compute the probabilities given the shakemaps and the probabilities of the PTF scenarios
     - `bingclaw-to-hysea`: code to run the landslide dynamics simualations and the tsunami simulations
+    - `landslide-wf-postproc`: code to compute the maximum inundation heights from the HySEA simulations using the amplification factors and to plot the results
 - `utils`: functions needed to run the sd5-1 notebook 
 - `output`: folder where the output of the notebook are stored (it is created at runtime if not present yet)
-  
+
+
+### Instructions for the use of submodules
+After cloning this repository, it is necessary to run an additional command to download also the repositories stored as submodules:
+```
+git git submodule update --init --recursive
+```
+If any changes to the original repositories are made, the following command is to align the submodules to the latest commit in the original repository:
+
+```
+git submodule update --remote --merge
+```
 
 ### Requirements   
 The file `requirements.txt` contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
