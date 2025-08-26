@@ -208,7 +208,7 @@ def exceedance_probability(probs, value, thresholds, weights):
     Vectorized calculation of exceedance probabilities for an array of thresholds.
     Returns a numpy array of weighted exceedance probabilities for each threshold.
 
-    probs:  2D numpy array of shape (num_clusters, num_scenarios) Probability of release by cluster and scenario.
+    probs: 2D numpy array of shape (num_clusters, num_scenarios) Probability of release by cluster and scenario.
     value: 1D numpy array of shape (num_clusters,) Value to be exceeded by cluster.
     thresholds: 1D numpy array of shape (num_thresholds,) Thresholds for exceedance.
     weights: 1D numpy array of shape (num_scenarios,) Weights for each scenario.
