@@ -25,10 +25,10 @@ git submodule update --remote --merge
 ```
 
 ### Requirements   
-The file `requirements.txt` contains all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8.   
-Note that some parts of the workflow require very specific versions of python packages (e.g., tensorflow 2.12) and specific wheels, so we recommend to use the `requirements.txt` file to install the right versions of the python packages with pip:
+The files `requirements-unix.txt` and `requirements-windows.txt` contain all the python packages and versions needed to run this notebook. This was tested with python version 3.11.8. The windows version contains also wheels that are specific for windows.   
+Note that some parts of the workflow require very specific versions of python packages (e.g., tensorflow 2.12) and specific wheels, so we recommend to use the `requirements-unix.txt` file to install the right versions of the python packages with pip:
 ```
-pip install -r requirements.txt
+pip install -r requirements-unix.txt
 ```
    
 ### Inputs
@@ -37,10 +37,15 @@ The input folder has the following structure:
 ```
 input-landslide-workflow-sd5
 | - precomputed-database
-|   | - ...
+|   | ...
 | - ptf-input
 |   | - FocMech_PreProc
 |   | - mesh_files
+| - rvsampler-rundir-messina-20250806
+|   | - slope_analysis
+|   | - triangulation
+|   | - volumes
+|   | ...
 ```   
 
 ### Acknowledgments 
