@@ -53,8 +53,6 @@ The original PTF code is available from the DT-GEO workflow registry (https://gi
    
 The code to compute the shakemaps is based on Lucas Lehmann's code (https://github.com/rauler95/gmacc) end EWRICA project (https://dataservices.gfz-potsdam.de/panmetaworks/showshort.php?id=79057f75-b358-11ed-95b8-f851ad6d1e4b). The application of Lehmann's code is described in the following publication: https://academic.oup.com/gji/article/234/3/2328/7202317.   
    
-### License
-This project is licensed under the Non-Profit Open Software License version 3.0 (NPOSL-3.0).  
-See the [LICENSE](./LICENSE) file for details.
+
 
 
