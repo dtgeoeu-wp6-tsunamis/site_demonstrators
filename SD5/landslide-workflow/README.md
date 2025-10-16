@@ -32,7 +32,7 @@ pip install -r requirements-unix.txt
 ```
    
 ### Inputs
-The files needed to run this notebook can be downloaded from ADD LINK.    
+The files needed to run this notebook can be downloaded from https://doi.org/10.82554/sdl-107.74.    
 The input folder has the following structure:   
 ```
 input-landslide-workflow-sd5

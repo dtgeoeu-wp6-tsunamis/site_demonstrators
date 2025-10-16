@@ -1,5 +1,5 @@
 # Site Demonstrators
-This repository contains all the codes and jupiter notebooks to run the site demonstrator test cases of WP6 for the DT-GEO project (deliverable 6.6).
+This repository contains all the codes and jupyter notebooks to run the site demonstrator test cases of WP6 for the DT-GEO project (deliverable 6.6).
 
 Each SD directory contains a notebook that runs all the relevant steps of the workflow for that specific site demonstrator.
 
